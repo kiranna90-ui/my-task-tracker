@@ -9,10 +9,20 @@ const nunito = Nunito({
   weight: ['400', '500', '600', '700', '800', '900'],
 })
 
-export const metadata: Metadata = {
-  title: 'My Task Tracker',
-  description: 'Мягкий и милый трекер задач: личное, работа и семья в одном месте.',
-  generator: 'v0.app',
+export const metadata = {
+  title: "My Task Tracker",
+  description: "Милый трекер задач",
+  manifest: "/manifest.json",
+  icons: {
+    icon: [
+      { url: "/favicon.ico" },
+      { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+      { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+    ],
+    apple: [
+      { url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" },
+    ],
+  },
 }
 
 export const viewport: Viewport = {

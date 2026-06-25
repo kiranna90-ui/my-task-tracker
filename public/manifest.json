@@ -3,6 +3,7 @@
   "short_name": "Task Tracker",
   "description": "Милый трекер задач",
   "start_url": "/",
+  "scope": "/",
   "display": "standalone",
   "background_color": "#ffc8dd",
   "theme_color": "#cdb4ff",
